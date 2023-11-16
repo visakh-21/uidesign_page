@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Oswald:wght@200;400;500&family=Playpen+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Mulish&family=Oswald:wght@200;400;500&family=Playpen+Sans:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.head_img{
+   margin-left:330px;
+}
+.container_img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/dnt_bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.card:hover{
+    transform: scale(1.15);
+    color: #e91e63;
+
+}
+
+.contents{
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+.contents h1{
+    font-size: 57px;
+    margin-top: 200px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(20, 54, 54);
+
+}
+.contents p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 57px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(33, 37, 37);
+    
+}
+.contents_p{
+    margin-top: 39px;
+    font-size: 30px;
+    color: black;
+}
+.icons
+{
+   margin-top: 20px;
+   color: black;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    margin-top: 5px;
+    width: 251px;
+    margin-left: 66px;
+    transition: all 0.3s;  
+}
+.text-content p{
+    background-color: rgb(181, 214, 241);
+    padding: 9px;
+    height: 310px;
+    width: 55%;
+    font-family: cursive;
+}
+
+
+.text{
+    margin-left: 510px;
+    margin-top: 20px;
+    color: rgb(82, 74, 194);
+}
+.text_img{
+    margin-left: 63px;
+}
+.servive_img{
+height: 100%;
+width: 30%;
+
+}
+
+.card-img1{
+    width: 100%;
+    height: 168px;
+    border-radius: 268px;
+}
+.text_card{
+width: 160px;
+margin-left: 110px;
+    
+}
+.container_service{
+    margin-left: 0px;
+    background-color: rgb(198, 198, 243);
+}
+.rivew_div{
+    
+    height: 135px;
+    max-width: 700px;
+    background-color: rgb(108, 108, 240);
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    border-radius: 14px;
+   
+}
+.rivew_div img{
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+
+}
+.review_cntnt{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 248px;
+    margin-top: 20px;
+    /* float: left; */
+}
+
+.contact{
+    background-color: aqua;
+    height: 50px;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.contact_list{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .cnt1
+{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+} */
+.cnt1 img{
+    width: 92%;
+    height: 54px;
+    border-radius: 79px;
+}
+.pic1{
+    margin-top: 40px;
+    
+}
+.pic2{
+    margin-top: 40px;
+
+}
+.pic3{
+
+    margin-top: 40px;
+   
+}
+.card-body{
+    height: 133px;
+    width: 84%;
+    margin-left: 177px;
+    border-radius: 10px;
+}
+.card-text{
+    margin-top: 5px;
+    padding: 15px;
+    color: blue;
+}
+.card-title{
+    color: rgb(78, 78, 235);
+    margin-left: -338px;
+}
+.btn1{
+    margin-left: 700px;
+    margin-top: 80px;
+} 
+.gallary2{
+    margin-right: 5px;
+}
+.map{
+    height: 30px;
+    width: 40%;
+}
+.footer{
+    background-color: rgb(119, 119, 196);
+    width: 100%;
+    height: 440px;
+}
+.g1{
+    color: rgb(50, 50, 240);
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px;
+    margin-top: 87px;
+}
+.g2{
+    font-family: 'Mulish', sans-serif;
+    margin-left: 30px;
+}
+.g3{
+    color: rgb(116, 116, 224);
+    margin-left: 30px;
+}
+.g5{
+    color: forestgreen;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+.navi{
+    margin-left: 170px;
+}
+.week{
+    margin-left: 140px;
+}
+@media(max-width:400px){
+
+    .head_img{
+        margin-left: 0px;
+        width: 80%;
+    } 
+    .contents h1{
+        margin-left: -45px;
+    }
+    .contents p{
+        font-size: 21px;
+        margin-right: 40px;
+    }
+    .contents_p{
+        margin-top: -16px;
+        margin-right: 39px;
+    }
+    .card{
+        margin-left: 20px;
+        width: 85%;
+    }
+    .text_img{
+        margin-top: -315px;
+        margin-left: 0px;
+    }
+    .txt3{
+margin-left:-98px;
+    }
+    .text_card{
+        margin-left: 74px;
+    }
+    .card-title{
+        margin-left: 12px;
+    }
+    .rivew_div{
+    width: 85%;
+    height: 156px;
+    margin-left: 20px;
+    }
+    .review_cntnt{
+        margin-left:133px;
+    }
+    .card-body{
+
+        margin-left:20px
+    }
+    .footer{
+        width: 147%;
+        height: 540px;
+    }
+   .week{
+    margin-left: 223px;
+    margin-top: -4px;
+}
+.navi{
+    margin-left: 112px;
+    margin-top: -9px;
+}
+.text-content {
+    width: 121%;
+
+}
+.contact_list{
+    margin-left: -8;
+}
+   }
+    
+    
+    
+
+
